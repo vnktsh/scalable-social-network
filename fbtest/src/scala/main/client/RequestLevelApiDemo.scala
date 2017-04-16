@@ -21,6 +21,7 @@ import spray.json.DefaultJsonProtocol
 import java.io._
 import scala.io.{Source}
 
+
 object JsonSupport extends DefaultJsonProtocol with SprayJsonSupport {
   implicit val PhotoFormat=jsonFormat2(PhotoPost)
   //implicit val AlbumFormat=jsonFormat1(Album)
