@@ -1,13 +1,8 @@
 
-
-
-/**
-  * Created by Shiva K on 11/25/2015.
-  */
   package fbclient
 
 
-  import scala.concurrent.duration._
+import scala.concurrent.duration._
 import scala.collection.mutable.ArrayBuffer
 import scala.util.Random
 import akka.actor._
