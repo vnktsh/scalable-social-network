@@ -4,6 +4,7 @@ This contains the Datastructure definitions for the client side, with function d
 into JSON strings which are sent through HTTP Post requests.
 */
 
+
 package fbclient
 
 import spray.httpx.SprayJsonSupport
