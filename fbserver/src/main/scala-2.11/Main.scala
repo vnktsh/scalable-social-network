@@ -1,6 +1,3 @@
-/**
-  * Created by Shiva K on 11/24/2015.
-  */
 
 package fbserver
 
