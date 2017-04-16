@@ -10,6 +10,7 @@ import javax.crypto.spec.{IvParameterSpec, PBEKeySpec, SecretKeySpec}
 import javax.crypto.{SecretKeyFactory, Cipher, SecretKey}
 import spray.json._
 
+
 object ServerStats {
   var httpRequestsProcessed:Long = 0.toLong
   var prevRequests:Long = 0.toLong
